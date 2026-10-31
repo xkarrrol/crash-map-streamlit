@@ -2,7 +2,6 @@
 
 Interaktywna aplikacja webowa do analizy przestrzennej kolizji drogowych w Nowym Jorku. Projekt wizualizuje hotspoty wypadków i trendy czasowe, wykorzystując zoptymalizowany format danych Parquet oraz trójwymiarową agregację heksagonalną.
 
----
 
 **Wersja Live:** 
 [![Streamlit App](https://streamlit.io)](https://crash-map-app.streamlit.app/)
@@ -10,8 +9,6 @@ Interaktywna aplikacja webowa do analizy przestrzennej kolizji drogowych w Nowym
 ---
 
 <img width="1793" height="826" alt="map" src="https://github.com/user-attachments/assets/17b97e08-5b8a-45ec-afcf-54422f0f39f9" />
-
----
 
 <img width="1822" height="782" alt="wykres" src="https://github.com/user-attachments/assets/9f89e55d-db07-4266-9e47-dcb0a5cc3349" />
 
