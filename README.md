@@ -3,7 +3,8 @@
 Interaktywna aplikacja webowa do analizy przestrzennej kolizji drogowych w Nowym Jorku. Projekt wizualizuje hotspoty wypadków i trendy czasowe, wykorzystując zoptymalizowany format danych Parquet oraz trójwymiarową agregację heksagonalną.
 
 **Wersja Live:** 
-https://crash-map-app.streamlit.app/
+[![Streamlit App](https://streamlit.io)](https://crash-map-app.streamlit.app/)
+
 
 ## Kluczowe funkcje
 * **Agregacja przestrzenna:** Wykorzystanie `HexagonLayer` z biblioteki PyDeck do renderowania map gęstości w 3D. Zapobiega to przeciążeniu przeglądarki przy rysowaniu dziesiątek tysięcy punktów.
