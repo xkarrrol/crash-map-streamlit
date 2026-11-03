@@ -11,16 +11,12 @@ def load_data():
     return pd.read_parquet("crashes_clean.parquet")
 
 df = load_data()
-
-# ---------- Nowy Układ Filtrów ----------
 col_f1, col_f2, col_f3 = st.columns([1, 1, 1])
 
 
 with col_f1:
     years = sorted(df["YEAR"].unique())
     selected_year = st.select_slider("Wybierz rok", options=years, value=years[-1])
-    
-    # Checkbox umieszczony pod suwakiem roku dla lepszego dopasowania pionowego
     injuries_only = st.checkbox("Tylko wypadki z rannymi/ofiarami")
 
 with col_f2:
